@@ -1,4 +1,4 @@
-#Created by Ravishanker
+#Created by Subramanyam
 
 Java Install 
 ---------------------------------------------------------------------
@@ -86,7 +86,7 @@ Step#11:Please check the sudo vagrant box list
 
 ==============================================================================
 
-Docker INstall Guide:
+Docker Install Guide:
 
 In this section, you will be guided to install docker. Before you install the software, 
 check the kernel version and the OS architecture. The next commands have to be run as root user. 

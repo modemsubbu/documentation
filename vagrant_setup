@@ -1,0 +1,20 @@
+
+#Vagrant Setup
+--------------------------------------
+
+step#1: go to website : www.vagrantup.com
+step#2: download and save into localfolder(vagrant_2.0.0_x86_64.deb).
+step#3: Go to Local folder and Double click on the and install vagrant_2.0.0_x86_64.deb
+step#4: Check the vagrant version [ >vagrant --version / Vagrant 1.8.1
+step#5: Instal virtualbox > sudo apt-get install virtualbox
+step#6: vagrant list -commands
+step#7: sudo vagrant init
+step#8: Vagrantfile has created
+step#9: go to Vagrantfile
+step#10: >sudo nano Vagrantfile and edit
+
+  config.vm.box = "ubuntu/trusty64"
+  config.vm.network "forwarded_port", guest:80, host: 8089
+
+Step#11:Please check the sudo vagrant box list
+

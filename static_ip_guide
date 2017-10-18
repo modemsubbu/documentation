@@ -1,0 +1,13 @@
+#How to set the StaticIP Address in Docker
+------------------------------------------
+
+First you need to create you own docker network (mynet123)
+
+> docker network create --subnet=172.18.0.0/16 mynet123
+
+than simply run the image (I'll take ubuntu as example)
+
+> docker run --net mynet123 --ip 172.18.0.22 -it ubuntu bash
+
+ip addr
+
