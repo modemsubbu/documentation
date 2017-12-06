@@ -1,4 +1,4 @@
-import java.uti.*
+import java.util.*
 class Nani
 {
 	public static void main(String args[]);
