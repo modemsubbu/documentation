@@ -2,7 +2,8 @@ claiss Nani
 {
 	public void main(String args[])
 	{
-		int a=1000;
+		hi
+		int a=1;
 		hi all
 	}
 }
